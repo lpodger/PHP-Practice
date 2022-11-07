@@ -1,0 +1,32 @@
+<div id="wrapper">
+		<main>
+			<section class="hero-section">
+				<h2 class="border-grey"><?php echo $title ?></h2>
+				<picture>
+				  <source media="(min-width: 700px)" srcset="images/plums.jpg">
+				  <source media="(max-width: 699px)" srcset="images/plums-small.jpg">
+				  <img class="hero border mb" src="images/plums.jpg" alt="Plums">
+				</picture>
+			</section>
+			<nav class="side">
+				<ul>
+					<li><a class="button border" id="btn1" href="about.html"><?= $side1 ?></a></li>
+					<li id="tips-btn"><a class="button border-light" id="btn2" href="tips.html"><?= $side2 ?></a></li>
+					<li><a class="button border" id="btn3" href="contact.php"><?= $side3 ?></a></li>
+				</ul>`
+			</nav> 
+			
+			<section class="intro">
+				<h3><?= $intro ?></h3>
+				<p>My name is Lachlan and this blog will hopefully provide you with a
+				little insight into gardening, how to care for plants and some of the things to consider when designing your own garden. 
+				It's primary purpose however is to share a little bit of my gardening journey.</p>
+				<p>With a little dedication it’s possible for anybody to transform an empty space on their property into their own little paradise.</p>
+			</section>
+			<picture>
+				 <source media="(min-width: 700px)" srcset="images/frangipani.jpg">
+				  <source media="(max-width: 699px)" srcset="images/frangipani-small.jpg">
+				  <img class="border mb" src="images/frangipani.jpg" alt="Frangipani">
+			</picture>
+		</main>
+	</div> 

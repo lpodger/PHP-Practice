@@ -1,0 +1,32 @@
+	<div id="wrapper">
+		<main id="contact" class="mt">
+			<section class="contact-info">
+				<h2 class="h3-style"><?php echo $title ?></h2>
+				<p>Email: <a href="mailto:<?php echo $email ?>"><?php echo $email ?></a></p>
+				<form action="#" method="post" id="theForm">
+					<fieldset><legend>Contact Details</legend>
+						<p>All fields are required.</p>
+						<div class="two"><label for="firstName">First Name</label><input type="text" name="firstName" id="firstName"></div>
+						<div class="two"><label for="lastName">Last Name</label><input type="text" name="lastName" id="lastName"></div>
+						<div class="two"><label for="email">Email Address</label><input type="email" name="email" id="email"></div>
+						<div class="two"><label for="phone">Phone Number</label><input type="text" name="phone" id="phone"></div>
+						<div class="two"><label for="city">City</label><input type="text" name="city" id="city"></div>
+						<div class="two"><label for="state">State</label><select name="state" id="state">
+							<option value="">Select a State</option> 
+							<option value="ACT">Australian Capital Territory</option> 
+							<option value="SA">South Australia</option> 
+							<option value="NSW">New South Wales</option> 
+							<option value="NT">Northern Territory</option> 
+							<option value="Qld">Queensland</option> 
+							<option value="Tas">Tasmania</option>
+							<option value="Vic">Victoria</option>   
+							<option value="WA">Western Australia</option>   				
+						</select></div>    
+						<div class="two"><label for="zip">Post Code<span class="tooltip">Post Code must be 4 digits.</span></label><input type="text" name="zip" id="zip"></div>
+						<div class="one"><input type="checkbox" name="terms" id="terms">Subscribe to newsletter</div>
+						<div class="one"><input type="submit" value="Register" id="submit"></div>
+					</fieldset>
+				</form>
+			</section>
+		</main>
+	</div>	
